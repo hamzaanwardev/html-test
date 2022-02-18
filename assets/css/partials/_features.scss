@@ -1,0 +1,59 @@
+.features {
+    padding: 70px 0 73px;
+    background: url('../img/features-bg.png')no-repeat center center/cover;
+
+    h2 {
+        font-size: 50px;
+        line-height: 40px;
+        font-weight: 800;        
+        letter-spacing: 0px;
+        color: #08083D;
+        margin-bottom: 58px;
+    }
+
+    &__list {
+        width: fit-content;
+        margin: 0 auto;
+        &--item {
+            font-size: 24px;
+            line-height: 49px;
+            font-weight: bold;            
+            letter-spacing: 0px;
+            color: #08083D;
+            &-detail {
+                max-width: 614px;
+            }
+            img {
+                margin-right: 40.44px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .features {
+        background-image: url(../img/features-mobile-bg.png);
+
+        h2 {
+            font-size: 32px;
+            line-height: 40px;
+            color: #ffffff;
+        }
+
+        &__list {
+            padding: 0 20px;
+            
+            &--item {
+                margin-bottom: 25px;
+                font-size: 18px;
+                line-height: 25px;
+                font-weight: normal;
+                color: #fff;
+
+                img {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+#process {
+    padding: 70px 0 50px;
+    background: transparent linear-gradient(139deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.9;
+    .section__heading {
+        text-align: center;
+        line-height: 49px;
+        color: #fff;
+        margin-bottom: 44px;
+    }
+    .process__wrapper {
+        margin: 0 auto;
+        max-width: 934px;
+        .steps {
+            margin-bottom: 30px;
+            h5 {
+                font-size: 27px;
+                line-height: 49px;
+                font-weight: 800;                 
+                letter-spacing: 0px;
+                color: #23CE6B;
+                text-transform: uppercase;
+            }
+            .step__name {
+                font-size: 45px;
+                line-height: 29px;
+                font-weight: 800;                 
+                letter-spacing: 0px;
+                color: #fff;
+                margin-bottom: 27px;
+            }
+            .step__details {
+                font-size: 21px;
+                line-height: 29px;
+                font-weight: 500;                 
+                letter-spacing: 0px;
+                color: #fff;
+                margin-bottom: 56px;
+            }
+        }
+        .step__right--image{
+            width: 115px;
+            height: 115px;
+            background: transparent linear-gradient(328deg, #4D80FB 0%, #23CE6B 100%) 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 35px;
+        }
+
+        .bottom__section {
+            width: 783px;
+            height: 250px;
+            box-shadow: 6px 6px 2px #6184D8;
+            border: 1px solid #FFFFFF;
+            border-radius: 20px;
+            margin: 0 auto;
+            padding: 55px 100px;
+            .heading {
+                font-size: 45px;
+                line-height: 29px;
+                font-weight: 800;                 
+                letter-spacing: 0px;
+                color: #fff;
+                margin-bottom: 27px;
+            }
+            .description {
+                font-size: 21px;
+                line-height: 29px;
+                font-weight: 500;                 
+                letter-spacing: 0px;
+                color: #fff;
+                margin-bottom: 56px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #process {
+        padding: 40px 0;
+        
+        .section__heading {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        .process__wrapper {
+
+            .steps {
+
+                h5 {
+                    font-size: 20px;
+                    line-height: 49px;
+                }
+
+                .step__name {
+                    font-size: 28px;
+                    line-height: 29px;
+                }
+
+                .step__details {
+                    margin-bottom: 30px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: normal;
+                }
+
+                .next-image {
+                    text-align: center;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .step__right--image {
+                    width: 57px;
+                    height: 57px;
+
+                    img {
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+            }
+
+            .bottom__section {
+                padding: 10px;
+                width: 100%;
+
+                .heading {
+                    padding: 0 50px;
+                    font-size: 32px;
+                    line-height: 40px;
+                    font-weight: bold;
+                } 
+
+                .description {
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
