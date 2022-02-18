@@ -46,7 +46,6 @@ Temporary Items
 node_modules/
 
 ### Distribution/build folder ###
-dist/
 .idea/
 yarn.lock
 package-lock.json
